@@ -1,13 +1,13 @@
 source 'http://rubygems.org'
 
-gem 'rails',     :git => 'git://github.com/rails/rails.git'
-gem 'arel',      :git => 'git://github.com/rails/arel.git'
-gem 'rack',      :git => 'git://github.com/rack/rack.git'
-gem 'sprockets', :git => "git://github.com/sstephenson/sprockets.git"
+gem 'rails', '~> 3.1.0'
+gem 'arel'
+gem 'rack'
+gem 'sprockets'
 
 gem 'sqlite3'
 
-gem 'sass', '~> 3.1.0.alpha'
+gem 'sass', '~> 3.1.0'
 gem 'coffee-script'
 
 gem 'dynamic_form'
