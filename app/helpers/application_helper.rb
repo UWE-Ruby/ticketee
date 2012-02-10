@@ -5,7 +5,7 @@ module ApplicationHelper
   end
   
   def admins_only(&block)
-    block.call if current_user.try(:admin?)
+    block.call if current_user.admin? rescue nil
     nil
   end
   
